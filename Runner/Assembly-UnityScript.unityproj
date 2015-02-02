@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\CharacterController.js" />
+     <Compile Include="Assets\Points.js" />
      <Compile Include="Assets\coin.js" />
      <Compile Include="Assets\streetRat.js" />
  <Reference Include="UnityEngine.UI">
