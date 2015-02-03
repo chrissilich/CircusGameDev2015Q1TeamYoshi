@@ -3,6 +3,7 @@
 public var jumpSpeed:float = 8;
 public var acceleration:float = 0.2;
 public var maxSpeed:float = 15;
+public var slideSpeed: float = 20;
 
 function Start () {
 	Debug.Log("Character Start Function");
@@ -35,10 +36,16 @@ function FixedUpdate () {
 		animController.SetInteger("State",1);
 	}
 
-	if (Input.GetAxis("Vertical") && grounded.collider) { //if he's on the ground n up key is hit
+	if (Input.GetKey(KeyCode.UpArrow) && grounded.collider) { //if he's on the ground n up key is hit
 		Debug.Log("JUMP");
 		rigidbody2D.velocity.y = jumpSpeed;
-	}	
+	} else if(Input.GetKey(KeyCode.DownArrow) && grounded.collider){
+		Debug.Log('SLIDE');
+		Debug.Log(slideSpeed);
+		rigidbody2D.velocity.x = slideSpeed;
+	} else{
+		rigidbody2D.velocity.x = maxSpeed;
+	}
 	
 	
 	if (transform.position.y < -2) {

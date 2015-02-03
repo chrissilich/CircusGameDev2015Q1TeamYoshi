@@ -35,5 +35,5 @@ function FixedUpdate () {
 		Application.LoadLevel("Level 1"); //loads any level
 	}
 	
-	// Debug.Log(rigidbody2D.velocity.x);
+	Debug.Log(rigidbody2D.velocity.x);
 }

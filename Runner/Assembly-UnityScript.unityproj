@@ -46,10 +46,10 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\CharacterController.js" />
-     <Compile Include="Assets\Points.js" />
-     <Compile Include="Assets\coin.js" />
-     <Compile Include="Assets\streetRat.js" />
+     <Compile Include="Assets\JS Files\CharacterController.js" />
+     <Compile Include="Assets\JS Files\Points.js" />
+     <Compile Include="Assets\JS Files\coin.js" />
+     <Compile Include="Assets\JS Files\streetRat.js" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
  </Reference>
