@@ -1,7 +1,73 @@
 fileFormatVersion: 2
 guid: 045e3133824e1467e8e0b39580fc2508
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: BackgroundCharacter2_Sprite_0
+    21300002: BackgroundCharacter2_Sprite_1
+    21300004: BackgroundCharacter2_Sprite_2
+    21300006: BackgroundCharacter2_Sprite_3
+    21300008: BackgroundCharacter2_Sprite_4
+    21300010: BackgroundCharacter2_Sprite_5
+    21300012: BackgroundCharacter2_Sprite_6
+    21300014: BackgroundCharacter2_Sprite_7
+    21300016: BackgroundCharacter2_Sprite_8
+    21300018: BackgroundCharacter2_Sprite_9
+    21300020: BackgroundCharacter2_Sprite_10
+    21300022: BackgroundCharacter2_Sprite_11
+    21300024: BackgroundCharacter2_Sprite_12
+    21300026: BackgroundCharacter2_Sprite_13
+    21300028: BackgroundCharacter2_Sprite_14
+    21300030: BackgroundCharacter2_Sprite_15
+    21300032: BackgroundCharacter2_Sprite_16
+    21300034: BackgroundCharacter2_Sprite_17
+    21300036: BackgroundCharacter2_Sprite_18
+    21300038: BackgroundCharacter2_Sprite_19
+    21300040: BackgroundCharacter2_Sprite_20
+    21300042: BackgroundCharacter2_Sprite_21
+    21300044: BackgroundCharacter2_Sprite_22
+    21300046: BackgroundCharacter2_Sprite_23
+    21300048: BackgroundCharacter2_Sprite_24
+    21300050: BackgroundCharacter2_Sprite_25
+    21300052: BackgroundCharacter2_Sprite_26
+    21300054: BackgroundCharacter2_Sprite_27
+    21300056: BackgroundCharacter2_Sprite_28
+    21300058: BackgroundCharacter2_Sprite_29
+    21300060: BackgroundCharacter2_Sprite_30
+    21300062: BackgroundCharacter2_Sprite_31
+    21300064: BackgroundCharacter2_Sprite_32
+    21300066: BackgroundCharacter2_Sprite_33
+    21300068: BackgroundCharacter2_Sprite_34
+    21300070: BackgroundCharacter2_Sprite_35
+    21300072: BackgroundCharacter2_Sprite_36
+    21300074: BackgroundCharacter2_Sprite_37
+    21300076: BackgroundCharacter2_Sprite_38
+    21300078: BackgroundCharacter2_Sprite_39
+    21300080: BackgroundCharacter2_Sprite_40
+    21300082: BackgroundCharacter2_Sprite_41
+    21300084: BackgroundCharacter2_Sprite_42
+    21300086: BackgroundCharacter2_Sprite_43
+    21300088: BackgroundCharacter2_Sprite_44
+    21300090: BackgroundCharacter2_Sprite_45
+    21300092: BackgroundCharacter2_Sprite_46
+    21300094: BackgroundCharacter2_Sprite_47
+    21300096: BackgroundCharacter2_Sprite_48
+    21300098: BackgroundCharacter2_Sprite_49
+    21300100: BackgroundCharacter2_Sprite_50
+    21300102: BackgroundCharacter2_Sprite_51
+    21300104: BackgroundCharacter2_Sprite_52
+    21300106: BackgroundCharacter2_Sprite_53
+    21300108: BackgroundCharacter2_Sprite_54
+    21300110: BackgroundCharacter2_Sprite_55
+    21300112: BackgroundCharacter2_Sprite_56
+    21300114: BackgroundCharacter2_Sprite_57
+    21300116: BackgroundCharacter2_Sprite_58
+    21300118: BackgroundCharacter2_Sprite_59
+    21300120: BackgroundCharacter2_Sprite_60
+    21300122: BackgroundCharacter2_Sprite_61
+    21300124: BackgroundCharacter2_Sprite_62
+    21300126: BackgroundCharacter2_Sprite_63
+    21300128: BackgroundCharacter2_Sprite_64
+    21300130: BackgroundCharacter2_Sprite_65
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -25,13 +91,13 @@ TextureImporter:
   maxTextureSize: 1024
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 16
     mipBias: -1
-    wrapMode: -1
+    wrapMode: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -42,6 +108,666 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: BackgroundCharacter2_Sprite_0
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 5607
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackgroundCharacter2_Sprite_1
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 5561
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackgroundCharacter2_Sprite_2
+      rect:
+        serializedVersion: 2
+        x: 2713
+        y: 5607
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackgroundCharacter2_Sprite_3
+      rect:
+        serializedVersion: 2
+        x: 3177
+        y: 5555
+        width: 74
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackgroundCharacter2_Sprite_4
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 5607
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackgroundCharacter2_Sprite_5
+      rect:
+        serializedVersion: 2
+        x: 5509
+        y: 5555
+        width: 70
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackgroundCharacter2_Sprite_6
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 5399
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackgroundCharacter2_Sprite_7
+      rect:
+        serializedVersion: 2
+        x: 3263
+        y: 5405
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackgroundCharacter2_Sprite_8
+      rect:
+        serializedVersion: 2
+        x: 5596
+        y: 5399
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackgroundCharacter2_Sprite_9
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 4884
+        width: 17
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackgroundCharacter2_Sprite_10
+      rect:
+        serializedVersion: 2
+        x: 3257
+        y: 4895
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackgroundCharacter2_Sprite_11
+      rect:
+        serializedVersion: 2
+        x: 5585
+        y: 4901
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackgroundCharacter2_Sprite_12
+      rect:
+        serializedVersion: 2
+        x: 3263
+        y: 4878
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackgroundCharacter2_Sprite_13
+      rect:
+        serializedVersion: 2
+        x: 5590
+        y: 4884
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackgroundCharacter2_Sprite_14
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 4866
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackgroundCharacter2_Sprite_15
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 4785
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackgroundCharacter2_Sprite_16
+      rect:
+        serializedVersion: 2
+        x: 4901
+        y: 4785
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackgroundCharacter2_Sprite_17
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 4733
+        width: 18
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackgroundCharacter2_Sprite_18
+      rect:
+        serializedVersion: 2
+        x: 2579
+        y: 4733
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackgroundCharacter2_Sprite_19
+      rect:
+        serializedVersion: 2
+        x: 4907
+        y: 4733
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackgroundCharacter2_Sprite_20
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 4623
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackgroundCharacter2_Sprite_21
+      rect:
+        serializedVersion: 2
+        x: 2701
+        y: 4623
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackgroundCharacter2_Sprite_22
+      rect:
+        serializedVersion: 2
+        x: 5029
+        y: 4623
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackgroundCharacter2_Sprite_23
+      rect:
+        serializedVersion: 2
+        x: 3286
+        y: 4177
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackgroundCharacter2_Sprite_24
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 4111
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackgroundCharacter2_Sprite_25
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 3917
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackgroundCharacter2_Sprite_26
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 3454
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackgroundCharacter2_Sprite_27
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 3454
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackgroundCharacter2_Sprite_28
+      rect:
+        serializedVersion: 2
+        x: 5399
+        y: 3454
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackgroundCharacter2_Sprite_29
+      rect:
+        serializedVersion: 2
+        x: 3089
+        y: 3401
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackgroundCharacter2_Sprite_30
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 3222
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackgroundCharacter2_Sprite_31
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 3216
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackgroundCharacter2_Sprite_32
+      rect:
+        serializedVersion: 2
+        x: 2950
+        y: 3222
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackgroundCharacter2_Sprite_33
+      rect:
+        serializedVersion: 2
+        x: 2979
+        y: 3216
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackgroundCharacter2_Sprite_34
+      rect:
+        serializedVersion: 2
+        x: 5278
+        y: 3222
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackgroundCharacter2_Sprite_35
+      rect:
+        serializedVersion: 2
+        x: 5307
+        y: 3216
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackgroundCharacter2_Sprite_36
+      rect:
+        serializedVersion: 2
+        x: 4322
+        y: 2718
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackgroundCharacter2_Sprite_37
+      rect:
+        serializedVersion: 2
+        x: 4785
+        y: 2718
+        width: 35
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackgroundCharacter2_Sprite_38
+      rect:
+        serializedVersion: 2
+        x: 4814
+        y: 2666
+        width: 47
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackgroundCharacter2_Sprite_39
+      rect:
+        serializedVersion: 2
+        x: 2487
+        y: 2632
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackgroundCharacter2_Sprite_40
+      rect:
+        serializedVersion: 2
+        x: 2956
+        y: 2585
+        width: 69
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackgroundCharacter2_Sprite_41
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 2597
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackgroundCharacter2_Sprite_42
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 2550
+        width: 69
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackgroundCharacter2_Sprite_43
+      rect:
+        serializedVersion: 2
+        x: 4872
+        y: 2510
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackgroundCharacter2_Sprite_44
+      rect:
+        serializedVersion: 2
+        x: 4861
+        y: 2024
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackgroundCharacter2_Sprite_45
+      rect:
+        serializedVersion: 2
+        x: 4867
+        y: 2006
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackgroundCharacter2_Sprite_46
+      rect:
+        serializedVersion: 2
+        x: 3037
+        y: 1914
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackgroundCharacter2_Sprite_47
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 1896
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackgroundCharacter2_Sprite_48
+      rect:
+        serializedVersion: 2
+        x: 3043
+        y: 1902
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackgroundCharacter2_Sprite_49
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 1879
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackgroundCharacter2_Sprite_50
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 1861
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackgroundCharacter2_Sprite_51
+      rect:
+        serializedVersion: 2
+        x: 2378
+        y: 1857
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackgroundCharacter2_Sprite_52
+      rect:
+        serializedVersion: 2
+        x: 4189
+        y: 1850
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackgroundCharacter2_Sprite_53
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 1780
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackgroundCharacter2_Sprite_54
+      rect:
+        serializedVersion: 2
+        x: 2359
+        y: 1763
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackgroundCharacter2_Sprite_55
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 1728
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackgroundCharacter2_Sprite_56
+      rect:
+        serializedVersion: 2
+        x: 4311
+        y: 1734
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackgroundCharacter2_Sprite_57
+      rect:
+        serializedVersion: 2
+        x: 2481
+        y: 1647
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackgroundCharacter2_Sprite_58
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 1618
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackgroundCharacter2_Sprite_59
+      rect:
+        serializedVersion: 2
+        x: 2986
+        y: 896
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackgroundCharacter2_Sprite_60
+      rect:
+        serializedVersion: 2
+        x: 4676
+        y: 565
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackgroundCharacter2_Sprite_61
+      rect:
+        serializedVersion: 2
+        x: 2846
+        y: 478
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackgroundCharacter2_Sprite_62
+      rect:
+        serializedVersion: 2
+        x: 4560
+        y: 333
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackgroundCharacter2_Sprite_63
+      rect:
+        serializedVersion: 2
+        x: 4426
+        y: 136
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackgroundCharacter2_Sprite_64
+      rect:
+        serializedVersion: 2
+        x: 2759
+        y: 240
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: BackgroundCharacter2_Sprite_65
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 20
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
