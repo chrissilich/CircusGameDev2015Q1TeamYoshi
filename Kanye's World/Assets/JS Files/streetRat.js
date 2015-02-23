@@ -2,38 +2,31 @@
 
 
 public var acceleration:float = 0.3;
-public var maxSpeed:float = 10;
+public var maxSpeed:float = 8;
 
-function Start () {
-	Debug.Log("Rats here");
 
-	if (rigidbody2D.velocity.x < maxSpeed) {
-		rigidbody2D.velocity.x += acceleration;
-	}
+function Start () {}
+
+// Player Hits IT
+var weHitItsAlready:boolean = false;
+function OnTriggerEnter2D(other:Collider2D){ //if it hits 
+
+	if (other.gameObject.tag != "Player") return; //if something hits this and its not the player....ignore it
 	
+	if(weHitItsAlready) return;
+	weHitItsAlready = true;
 
-	var start = transform.position;
-	start.y -= 1.1;
-	// rigidbody2D.velocity.y = 8;
+	Debug.Log("rat attack");
+
+	Destroy(this.gameObject);
+
 }
+
 
 function FixedUpdate () {
 	
-	var sprite:Transform = this.transform.Find("Sprite"); //ref to sprite object. game anim obj
-				
+	if (rigidbody2D.velocity.x < maxSpeed) {
+		rigidbody2D.velocity.x -= acceleration;
+	}			
 	
-	// Debug.DrawRay( start, -Vector2.up * 0.1, Color.blue, 1 );
-	
-	// var grounded:RaycastHit2D = Physics2D.Raycast( start, -Vector2.up, 0.1 );
-
-
-	if (transform.position.y < -2) {
-		rigidbody2D.velocity.x = 3;
-		transform.position.x = -68.66307;
-		transform.position.y = 2;
-		
-		Application.LoadLevel("Level 1"); //loads any level
-	}
-	
-	Debug.Log(rigidbody2D.velocity.x);
 }

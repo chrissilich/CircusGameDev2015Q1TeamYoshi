@@ -5,12 +5,11 @@ public var acceleration:float = 0.2;
 public var maxSpeed:float = 15;
 public var slideSpeed: float = 20;
 
-public var ratPoint :int = 10;
-
 function Start () {
 	Debug.Log("Character Start Function");
 
 }
+
 
 function FixedUpdate () {
 	
@@ -26,7 +25,6 @@ function FixedUpdate () {
 	
 	var start = transform.position;
 	start.y -= 1.1;
-	start.x -= 1.1;
 	
 	Debug.DrawRay( start, -Vector2.up * 0.1, Color.red, 1 );
 	
@@ -37,11 +35,6 @@ function FixedUpdate () {
 		animController.SetInteger("State",0);
 	} else{
 		animController.SetInteger("State",1);
-	}
-
-	
-	if(collider2D.gameObject.tag == "rat") {
-		Debug.Log('HIT RAT!');
 	}
 
 
@@ -73,8 +66,8 @@ function FixedUpdate () {
 		transform.position.x = -68.66307;
 		transform.position.y = 2;
 		
-		Application.LoadLevel("Level 1"); //loads any level
+		Application.LoadLevel("Death"); //loads any level
 	}
 	
-	Debug.Log(rigidbody2D.velocity.x);
+	// Debug.Log(rigidbody2D.velocity.x);
 }

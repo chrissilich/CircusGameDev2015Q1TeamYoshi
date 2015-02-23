@@ -1,12 +1,9 @@
 ﻿#pragma strict
 
-static var score : int;        // The player's score.
+static var score : int; // The player's score.
+private var text : UnityEngine.UI.Text; // Reference to the Text component.
 
-private var text : UnityEngine.UI.Text;       // Reference to the Text component.
-
-
-function Awake ()
-{
+function Awake (){
     // Set up the reference.
     text = GetComponent (UnityEngine.UI.Text);
 
@@ -15,8 +12,7 @@ function Awake ()
 }
 
 
-function Update ()
-{
+function Update () {
     // Set the displayed text to be the word "Score" followed by the score value.
     text.text = "Score: " + score;
 
