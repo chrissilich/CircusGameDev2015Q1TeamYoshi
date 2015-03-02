@@ -1,11 +1,14 @@
 fileFormatVersion: 2
 guid: 4b84b31afdce34527ade72553296f524
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300002: 40Bottle_Sprite_0
+    21300004: 40Bottle_Sprite_1
+    21300006: 40Bottle_Sprite_2
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     linearTexture: 0
     correctGamma: 0
     fadeOut: 0
@@ -27,7 +30,7 @@ TextureImporter:
     filterMode: -1
     aniso: 16
     mipBias: -1
-    wrapMode: -1
+    wrapMode: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -42,6 +45,46 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: 
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1098
+        width: 267
+        height: 903
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 40Bottle_Sprite_0
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 1090
+        width: 267
+        height: 903
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 40Bottle_Sprite_1
+      rect:
+        serializedVersion: 2
+        x: 1914
+        y: 1133
+        width: 267
+        height: 903
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 40Bottle_Sprite_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 267
+        height: 903
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

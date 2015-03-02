@@ -2,7 +2,7 @@
 
 
 public var acceleration:float = 0.3;
-public var maxSpeed:float = 8;
+public var maxSpeed:float = 3;
 
 
 function Start () {}

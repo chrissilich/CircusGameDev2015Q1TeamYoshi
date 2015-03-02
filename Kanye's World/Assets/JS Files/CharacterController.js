@@ -1,13 +1,13 @@
 ﻿#pragma strict
 
-public var jumpSpeed:float = 10;
-public var acceleration:float = 0.2;
-public var maxSpeed:float = 15;
-public var slideSpeed: float = 20;
+public var jumpSpeed:float = 5;
+public var acceleration:float = 0.3;
+public var maxSpeed:float = 5;
+public var slideSpeed: float = 10;
+public var stop: float = 0;
 
 function Start () {
 	Debug.Log("Character Start Function");
-
 }
 
 
@@ -17,12 +17,7 @@ function FixedUpdate () {
 	var animController: Animator = sprite.GetComponent("Animator");	
 //	Debug.Log(animController);
 	animController.SetInteger("State",1);
-	
 		
-	if (rigidbody2D.velocity.x < maxSpeed) {
-		rigidbody2D.velocity.x += acceleration;
-	}
-	
 	var start = transform.position;
 	start.y -= 1.1;
 	
@@ -30,25 +25,45 @@ function FixedUpdate () {
 	
 	var grounded:RaycastHit2D = Physics2D.Raycast( start, -Vector2.up, 0.1 );
 
-	// CHANGE WALKING STATES
-	if(grounded.collider){
-		animController.SetInteger("State",0);
-	} else{
-		animController.SetInteger("State",1);
-	}
+	if (Input.GetAxis("Horizontal") > 0) {
+		rigidbody2D.velocity.x += acceleration;
+	} else if (Input.GetAxis("Horizontal") < 0) {
+		rigidbody2D.velocity.x -= acceleration;
+	} else if (Input.GetKey(KeyCode.UpArrow)) { 
+		rigidbody2D.velocity.y = jumpSpeed;
+	} else if (Input.GetKey(KeyCode.DownArrow)) { 
+		rigidbody2D.velocity.x = slideSpeed;
+	} else if ((Input.GetAxis("Horizontal") == 0)) {
+		rigidbody2D.velocity.x = stop;
+	};
 
+	// CHANGE WALKING STATES
+	// if grounded walk if not jump 
+	// if(grounded.collider){
+	// 	animController.SetInteger("State",0);
+	// } else{
+	// 	animController.SetInteger("State",1);
+	// }
+
+	if (grounded.collider && Input.GetKey(KeyCode.RightArrow)) {
+		animController.SetInteger("State",1);
+		Debug.Log('RIGHT');
+	} else if (grounded.collider && Input.GetKey(KeyCode.LeftArrow)) {
+
+		animController.SetInteger("State",0);
+	};
 
 	//if he's on the ground n up key is hit
-	if (Input.GetKey(KeyCode.UpArrow) && grounded.collider) { 
-		rigidbody2D.velocity.y = jumpSpeed;
-	} else if(Input.GetKey(KeyCode.DownArrow) && grounded.collider ){
-		rigidbody2D.velocity.x = slideSpeed;
-	}else if(Input.GetKey(KeyCode.Space) && grounded.collider){
-		rigidbody2D.velocity.x = maxSpeed;
-	}
-	 else{
-		rigidbody2D.velocity.x = maxSpeed;
-	}
+	// if (Input.GetKey(KeyCode.UpArrow) && grounded.collider) { 
+	// 	rigidbody2D.velocity.y = jumpSpeed;
+	// } else if(Input.GetKey(KeyCode.DownArrow) && grounded.collider ){
+	// 	rigidbody2D.velocity.x = slideSpeed;
+	// }else if(Input.GetKey(KeyCode.Space) && grounded.collider){
+	// 	rigidbody2D.velocity.x = maxSpeed;
+	// }
+	//  else{
+	// 	rigidbody2D.velocity.x = maxSpeed;
+	// }
 
 	// SCORING altered so the score only logs once per keypress
 	if (Input.GetKeyDown(KeyCode.UpArrow) && grounded.collider) { //if he's on the ground n up key is hit
@@ -66,7 +81,7 @@ function FixedUpdate () {
 		transform.position.x = -68.66307;
 		transform.position.y = 2;
 		
-		Application.LoadLevel("Death"); //loads any level
+		Application.LoadLevel("Level 1"); //loads any level
 	}
 	
 	// Debug.Log(rigidbody2D.velocity.x);
