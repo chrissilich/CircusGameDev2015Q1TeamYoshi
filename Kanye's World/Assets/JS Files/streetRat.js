@@ -2,7 +2,7 @@
 
 
 public var acceleration:float = .2;
-public var maxSpeed:float = 2;
+public var maxSpeed:float = .5;
 
 function Start () {}
 	Debug.Log("Rats here");

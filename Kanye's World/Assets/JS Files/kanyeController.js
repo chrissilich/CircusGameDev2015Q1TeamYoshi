@@ -1,8 +1,8 @@
 ﻿#pragma strict
 
-public var jumpSpeed:float = .2;
-public var acceleration:float = 0.5;
-public var maxSpeed:float = 10;
+public var jumpSpeed:float = 3;
+public var acceleration:float = 1;
+public var maxSpeed:float = 15;
 public var slideSpeed: float = 5;
 public var stop: float = 0;
 
@@ -39,12 +39,12 @@ function FixedUpdate () {
 
 	// if going right. accel right walk right
 	if (Input.GetKey(KeyCode.RightArrow)) {
-		rigidbody2D.velocity.x += 0.3;
+		rigidbody2D.velocity.x += 1;
 		animController.SetInteger("State",0);
 	// if going left. accell left walk left
 
 	} else if (Input.GetKey(KeyCode.LeftArrow)) {
-		rigidbody2D.velocity.x -= 0.3;
+		rigidbody2D.velocity.x -= 1;
 		animController.SetInteger("State",2);
 	// if up is hit. jump. show jump sprite
 
@@ -55,12 +55,12 @@ function FixedUpdate () {
 
 	} else if (Input.GetKey(KeyCode.DownArrow)) { 
 		rigidbody2D.velocity.x = slideSpeed;
-		// animController.SetInteger("State",0);
+		animController.SetInteger("State",5);
 	// if not moving at all stop acceleration
 
 	}else if(Input.GetKey(KeyCode.Space)){
 		rigidbody2D.velocity.x = maxSpeed;
-
+		animController.SetInteger("State",4);
 	} else if(Input.GetAxis("Horizontal") > 0 && Input.GetKey(KeyCode.UpArrow)){
 		rigidbody2D.velocity.y = jumpSpeed;
 		rigidbody2D.velocity.x += 0.3;
