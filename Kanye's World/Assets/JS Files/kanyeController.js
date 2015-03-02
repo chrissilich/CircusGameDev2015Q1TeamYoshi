@@ -1,13 +1,14 @@
 ﻿#pragma strict
 
-public var jumpSpeed:float = 5;
-public var acceleration:float = 0.3;
+public var jumpSpeed:float = .2;
+public var acceleration:float = 0.5;
 public var maxSpeed:float = 10;
 public var slideSpeed: float = 5;
 public var stop: float = 0;
 
-public var ratPoint :int = 10;
-
+var ratPoint :int = 10;
+var bottlePoint :int = 20;
+var papparazoPoint :int = 30;
 function Start () {
 	Debug.Log("Character Start Function");
 
@@ -29,6 +30,11 @@ function FixedUpdate () {
 
 	if(collider2D.gameObject.tag == "rat") {
 		Debug.Log('HIT RAT!');
+		Points.score -= ratPoint;
+	} else if (collider2D.gameObject.tag == "bottle") {
+		Points.score -= bottlePoint;
+	} else if (collider2D.gameObject.tag == "papps") {
+		Points.score -= papparazoPoint;
 	}
 
 	// if going right. accel right walk right
@@ -42,9 +48,9 @@ function FixedUpdate () {
 		animController.SetInteger("State",2);
 	// if up is hit. jump. show jump sprite
 
-	} else if (Input.GetKeyDown(KeyCode.UpArrow)) { 
-		rigidbody2D.velocity.y = slideSpeed;
-		// animController.SetInteger("State",4);
+	} else if (Input.GetKey(KeyCode.UpArrow)) { 
+		rigidbody2D.velocity.y = jumpSpeed;
+		animController.SetInteger("State",3);
 	// if down arrow. slide. show slide sprite
 
 	} else if (Input.GetKey(KeyCode.DownArrow)) { 
@@ -55,23 +61,14 @@ function FixedUpdate () {
 	}else if(Input.GetKey(KeyCode.Space)){
 		rigidbody2D.velocity.x = maxSpeed;
 
+	} else if(Input.GetAxis("Horizontal") > 0 && Input.GetKey(KeyCode.UpArrow)){
+		rigidbody2D.velocity.y = jumpSpeed;
+		rigidbody2D.velocity.x += 0.3;
 	} else {
 		rigidbody2D.velocity.x = stop;
 		animController.SetInteger("State",1);
 	};
 
-
-	// // //if he's on the ground n up key is hit
-	// if (Input.GetKey(KeyCode.UpArrow) && grounded.collider) { 
-	// 	rigidbody2D.velocity.y = jumpSpeed;
-	// } else if(Input.GetKey(KeyCode.DownArrow) && grounded.collider ){
-	// 	rigidbody2D.velocity.x = slideSpeed;
-	// }else if(Input.GetKey(KeyCode.Space) && grounded.collider){
-	// 	rigidbody2D.velocity.x = maxSpeed;
-	// }
-	//  else{
-	// 	// rigidbody2D.velocity.x = maxSpeed;
-	// }
 
 	// SCORING altered so the score only logs once per keypress
 	if (Input.GetKeyDown(KeyCode.UpArrow) && grounded.collider) { //if he's on the ground n up key is hit

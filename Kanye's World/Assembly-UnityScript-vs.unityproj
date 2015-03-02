@@ -51,6 +51,8 @@
      <Compile Include="Assets\JS Files\clouds.js" />
      <Compile Include="Assets\JS Files\coin.js" />
      <Compile Include="Assets\JS Files\kanyeController.js" />
+     <Compile Include="Assets\JS Files\pause.js" />
+     <Compile Include="Assets\JS Files\start.js" />
      <Compile Include="Assets\JS Files\streetRat.js" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/4.6.2/UnityEngine.UI.dll</HintPath>
