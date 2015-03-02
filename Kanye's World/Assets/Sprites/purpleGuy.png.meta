@@ -1,7 +1,19 @@
 fileFormatVersion: 2
 guid: a319ff7c6a4c24faebc74fbb91894dfe
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: purpleGuy_0
+    21300002: purpleGuy_1
+    21300004: purpleGuy_2
+    21300006: purpleGuy_3
+    21300008: purpleGuy_4
+    21300010: purpleGuy_5
+    21300012: purpleGuy_6
+    21300014: purpleGuy_7
+    21300016: purpleGuy_8
+    21300018: purpleGuy_9
+    21300020: purpleGuy_10
+    21300022: purpleGuy_11
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -25,13 +37,13 @@ TextureImporter:
   maxTextureSize: 1024
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 16
     mipBias: -1
-    wrapMode: -1
+    wrapMode: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -42,6 +54,126 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: purpleGuy_0
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 664
+        width: 185
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: purpleGuy_1
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 664
+        width: 186
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: purpleGuy_2
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 664
+        width: 185
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: purpleGuy_3
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 664
+        width: 185
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: purpleGuy_4
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 344
+        width: 185
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: purpleGuy_5
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 344
+        width: 186
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: purpleGuy_6
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 344
+        width: 185
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: purpleGuy_7
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 344
+        width: 185
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: purpleGuy_8
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 24
+        width: 185
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: purpleGuy_9
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 24
+        width: 186
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: purpleGuy_10
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 24
+        width: 185
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: purpleGuy_11
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 24
+        width: 185
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

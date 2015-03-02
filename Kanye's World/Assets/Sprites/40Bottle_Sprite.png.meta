@@ -2,13 +2,12 @@ fileFormatVersion: 2
 guid: 4b84b31afdce34527ade72553296f524
 TextureImporter:
   fileIDToRecycleName:
-    21300002: 40Bottle_Sprite_0
-    21300004: 40Bottle_Sprite_1
-    21300006: 40Bottle_Sprite_2
+    21300000: 40Bottle_Sprite_0
+    21300002: 40Bottle_Sprite_1
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 0
+    enableMipMap: 1
     linearTexture: 0
     correctGamma: 0
     fadeOut: 0
@@ -46,45 +45,45 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: 
-      rect:
-        serializedVersion: 2
-        x: 11
-        y: 1098
-        width: 267
-        height: 903
-      alignment: 7
-      pivot: {x: .5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
     - name: 40Bottle_Sprite_0
       rect:
         serializedVersion: 2
-        x: 1007
-        y: 1090
-        width: 267
-        height: 903
-      alignment: 7
-      pivot: {x: .5, y: 0}
+        x: 12
+        y: 1075
+        width: 270
+        height: 800
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: 40Bottle_Sprite_1
       rect:
         serializedVersion: 2
-        x: 1914
-        y: 1133
-        width: 267
-        height: 903
-      alignment: 7
-      pivot: {x: .5, y: 0}
+        x: 1010
+        y: 1075
+        width: 266
+        height: 613
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: 40Bottle_Sprite_2
+    - name: 
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1155
+        width: 271
+        height: 881
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 267
-        height: 903
-      alignment: 7
-      pivot: {x: .5, y: 0}
+        width: 275
+        height: 594
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

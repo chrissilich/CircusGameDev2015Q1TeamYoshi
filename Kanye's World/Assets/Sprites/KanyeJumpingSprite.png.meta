@@ -1,7 +1,10 @@
 fileFormatVersion: 2
 guid: d6de39af963484ba88de6e8fac816a09
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: KanyeJumpingSprite_0
+    21300002: KanyeJumpingSprite_1
+    21300004: KanyeJumpingSprite_2
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -25,13 +28,13 @@ TextureImporter:
   maxTextureSize: 1024
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 16
     mipBias: -1
-    wrapMode: -1
+    wrapMode: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -42,6 +45,36 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: KanyeJumpingSprite_0
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 42
+        width: 120
+        height: 456
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KanyeJumpingSprite_1
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 40
+        width: 159
+        height: 417
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KanyeJumpingSprite_2
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 101
+        width: 223
+        height: 393
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 

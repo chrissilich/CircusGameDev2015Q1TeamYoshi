@@ -1,7 +1,10 @@
 fileFormatVersion: 2
 guid: bd56b7fc3a56142c2b55ead59f657004
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: greenGuy_0
+    21300004: greenGuy_1
+    21300006: greenGuy_2
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -25,13 +28,13 @@ TextureImporter:
   maxTextureSize: 1024
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 16
     mipBias: -1
-    wrapMode: -1
+    wrapMode: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -42,6 +45,46 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: greenGuy_0
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 2929
+        width: 1105
+        height: 2764
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: 
+      rect:
+        serializedVersion: 2
+        x: 2333
+        y: 2951
+        width: 1241
+        height: 2760
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: greenGuy_1
+      rect:
+        serializedVersion: 2
+        x: 4685
+        y: 2875
+        width: 1187
+        height: 2824
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: greenGuy_2
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 0
+        width: 1061
+        height: 2650
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
