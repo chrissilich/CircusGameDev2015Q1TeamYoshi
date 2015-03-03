@@ -1,7 +1,5 @@
 ﻿#pragma strict
 
-var pauseCanvas:Canvas;
-
 function Start () {
 	Screen.lockCursor = true;
 	Screen.showCursor = false;
@@ -9,14 +7,19 @@ function Start () {
 
 function Update () {
 
+
+ // 0 = open
+ // 1 = closed
 	if (Input.GetKeyDown(KeyCode.Escape)) {
-		pauseCanvas.enabled = true;
-		Time.timeScale = 0;
+		//Time.timeScale = 0;
 		Screen.lockCursor = false;
 		Screen.showCursor = true;
-	} if (Input.GetMouseButtonDown(0)) {
-		pauseCanvas.enabled = false;
-	};
+		Debug.Log(gameObject);
+		var animController: Animator = gameObject.GetComponent("Animator");	
+		Debug.Log(animController);
+		animController.SetInteger("State", 1);
+	} 
+
 
 }
 
